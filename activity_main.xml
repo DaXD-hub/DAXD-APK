@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080B19"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦ DAXWARE"
+            android:textColor="#B9A5FF"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GALAXY PERFORMANCE SYSTEM"
+            android:textColor="#8290B9"
+            android:textSize="11sp"
+            android:letterSpacing="0.12"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_card"
+            android:gravity="center"
+            android:text="🚀&#10;ASTRONAUT CONTROL CENTER"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:background="@drawable/bg_card"
+            android:text="SHIZUKU: DISCONNECTED"
+            android:textColor="#FF8296"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnConnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONNECT SHIZUKU"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="DISPLAY CONTROL"
+            android:textColor="#B9A5FF"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+        <EditText
+            android:id="@+id/etDpi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DPI / Density (contoh 420)"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8290B9"/>
+        <Button
+            android:id="@+id/btnDpi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APPLY DPI"/>
+        <EditText
+            android:id="@+id/etResolution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Resolusi (contoh 1080x2400)"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8290B9"/>
+        <Button
+            android:id="@+id/btnResolution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APPLY RESOLUTION"/>
+        <Button
+            android:id="@+id/btnRestore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESTORE DEFAULT"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="GPU &amp; PERFORMANCE"
+            android:textColor="#B9A5FF"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/tvGpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/bg_card"
+            android:text="GPU INFORMATION"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/btnGpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHECK GPU"/>
+        <Button
+            android:id="@+id/btnOptimize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OPTIMIZE SYSTEM"/>
+        <Button
+            android:id="@+id/btnRestoreAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESTORE ANIMATION"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="DAXWARE © GALAXY EDITION"
+            android:textColor="#66708F"
+            android:textSize="11sp"/>
+    </LinearLayout>
+</ScrollView>

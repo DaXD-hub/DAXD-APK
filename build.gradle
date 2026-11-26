@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.daxware.booster'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.daxware.booster'
+        minSdk 23
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'dev.rikka.shizuku:api:12.1.0'
+    implementation 'dev.rikka.shizuku:provider:12.1.0'
+}
